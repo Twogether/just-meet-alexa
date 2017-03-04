@@ -1,15 +1,19 @@
 {
   "intents": [
     {
-      "intent": "GetNextMeeting",
+      "intent": "GetNextMeetingIntent",
       "slots": []
     },
     {
-      "intent": "AMAZON.YesIntent",
+      "intent": "AMAZON.CancelIntent",
       "slots": []
     },
     {
-      "intent": "AMAZON.NoIntent",
+      "intent": "AMAZON.StopIntent",
+      "slots": []
+    },
+    {
+      "intent": "AMAZON.HelpIntent",
       "slots": []
     }
   ]
